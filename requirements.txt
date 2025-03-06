@@ -1,0 +1,3 @@
+pytest # For running tests
+twilio # For sending SMS using Twilio API
+python-dotenv # For loading environment variables from .env file

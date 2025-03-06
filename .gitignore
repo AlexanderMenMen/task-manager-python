@@ -1,0 +1,19 @@
+# Ignore the environment variables file
+.env
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# Ignore virtual environment directory (if using one)
+venv/
+env/
+
+# Ignore any log or temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
