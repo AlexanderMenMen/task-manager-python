@@ -12,6 +12,18 @@ Task Manager with Reminder Notifications is a Python-based application designed 
 - **CSV Storage:** Tasks are stored in a CSV file, ensuring data persistence even after the program ends.
 - **Secure Credentials:** Uses a `.env` file to manage sensitive information like API keys and passwords.
 
+## Project Structure 📁
+
+```
+task-manager-python/
+├── .gitignore
+├── README.md
+├── project.py
+├── requirements.txt
+├── tasks.csv
+└── test_project.py
+```
+
 ## Installation 💻
 1. **Clone the repository:**
     ```bash
@@ -40,3 +52,28 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 # Gmail Credentials (for sending email notifications)
 SENDER_EMAIL=your_email@gmail.com
 SENDER_PASSWORD=your_app_password
+```
+
+## Usage 🚀
+1. **Run the application:**
+   ```bash
+    python project.py
+    ```
+2. **Interaction**
+- **Add Task:** Follow the on-screen instructions to input the title, description, category, and due date.
+- **Remove a Task:** Select the task number you wish to delete.
+- **List Tasks:** Displays all the tasks stored in the CSV file.
+- **Modify a Task:** Choose a task from the list and update its details.
+- **Send Reminders:** The application can send automated reminders via email or SMS based on the configured settings.
+
+## Integration with External APIs 🌎
+- **Twilio:** Used to send SMS reminders. Make sure your credentials in the .env file are correct and that your Twilio account is configured to send messages.
+- **Gmail:** Used to send email notifications. Remember to generate an application-specific password if you have two-factor authentication enabled on your Gmail account.
+
+## Final Considerations 🔚
+- **Data Persistence:** All tasks are stored in a CSV file, ensuring the data remains available even after the program ends.
+- **Security:** Credentials are handled through the .env file, following best practices for managing sensitive information.
+- **Scalability:** The modular design allows you to extend the functionality of the task manager, adding new features or integrations as needed.
+
+## License 📜
+This project is distributed under the MIT License.
