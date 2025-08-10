@@ -3,6 +3,19 @@
 #### Description:
 Task Manager with Reminder Notifications is a Python-based application designed to help users manage their daily tasks efficiently. The program allows users to add, remove, list, and modify tasks, as well as send reminders via Gmail or SMS using Twilio. Tasks are stored persistently in a CSV file, and environment variables are used for secure credential management. This project demonstrates skills in data management, integration with external APIs, and handling dates and times—all essential abilities for modern software development.
 
+## Table of Contents
+- [Features](#features-✨)
+- [Tech Stack](#tech-stack-🖥️)
+- [Demo](#demo-🎞️)
+- [Project Structure](#project-structure-📁)
+- [Installation](#installation-💻)
+- [Configuration](#configuration-🔧)
+- [Usage](#usage-🚀)
+- [Integration with External APIs](#integration-with-external-apis-🌎)
+- [License](#license-📜)
+- [Contact](#contact-🧑🏽‍💻)
+
+
 ## Features ✨
 - **Add Task:** Create a new task by providing a title, description, category (from a predefined list), and a due date.
 - **Remove Task:** Delete an existing task by selecting its number from a list.
@@ -12,6 +25,34 @@ Task Manager with Reminder Notifications is a Python-based application designed 
 - **CSV Storage:** Tasks are stored in a CSV file, ensuring data persistence even after the program ends.
 - **Secure Credentials:** Uses a `.env` file to manage sensitive information like API keys and passwords.
 
+## Tech Stack 🖥️
+- **Language:** Python  
+- **Notifications:** Twilio (SMS), Gmail (Email)  
+- **Storage:** CSV  
+- **Credential Management:** dotenv  
+
+## Demo 🎞️
+Below are example screenshots showing the application in action.
+
+<p align="center">
+  <img src="./media/menu.png" alt="Menu Screenshot"><br>
+  <em>Main Menu - Initial screen showing available options.</em>
+</p>
+
+<p align="center">
+  <img src="./media/add_task.png" alt="Add Task Screenshot" ><br>
+  <em>Adding a Task - Example of entering task details in the CLI.</em>
+</p>
+
+<p align="center">
+  <img src="./media/gmail.png" alt="Gmail Screenshot" ><br>
+  <em>Gmail Notification - Email reminder sent by the application.</em>
+</p>
+
+<p align="center">
+  <img src="./media/sms.png" alt="SMS Screenshot" ><br>
+  <em>SMS Notification - Reminder sent via Twilio.</em>
+</p>
 ## Project Structure 📁
 
 ```
@@ -76,4 +117,9 @@ SENDER_PASSWORD=your_app_password
 - **Scalability:** The modular design allows you to extend the functionality of the task manager, adding new features or integrations as needed.
 
 ## License 📜
-This project is distributed under the MIT License.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
+
+## Contact 🧑🏽‍💻
+
+* **GitHub:** [AlexanderMenMen](https://github.com/AlexanderMenMen)
+* **LinkedIn:** [Alexander Mendoza Mendoza](https://www.linkedin.com/in/alexander-mendoza-mendoza-876255214/)
